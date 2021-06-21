@@ -41,6 +41,10 @@ module.exports = {
       description: 'Whether reminders are sent for this goal.',
     },
 
+    user: {
+      model: 'user'
+    }
+
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
     //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
