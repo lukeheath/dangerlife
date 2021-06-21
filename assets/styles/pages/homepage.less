@@ -1,0 +1,59 @@
+#homepage {
+  .hero {
+    background: url('/images/hero.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 40rem;
+    .cover {
+      position: absolute;
+      width: 100%;
+      height: 40rem;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    .logo {
+      margin: 0 auto;
+      max-width: 40rem;
+    }
+    h1 {
+      font-size: 3.75rem;
+      font-weight: 200;
+      text-transform: uppercase;
+      color: #FFF;
+      margin: 1rem auto 2rem;
+    }
+    .btn-primary {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+  }
+  .steps {
+    display: flex;
+    width: 100%;
+    max-width: 60rem;
+    margin: 3rem auto 0;
+    text-align: center;
+    .step {
+      margin: 0 1rem;
+      width: 33%;
+      .fa {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+      }
+      .title {
+        color: @brand;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 1rem 0;
+      }
+    }
+  }
+}
